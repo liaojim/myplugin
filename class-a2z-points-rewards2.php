@@ -52,5 +52,5 @@ class A2Z_Points_Rewards {
 // $points->increase_rewards($order_id, $web_user_id, $reward_points);
 
 // The above code works in crediting points to the user. But the hook event_description() was 
-// never called even though the add_filter() in constructor was called.
-// The issues seems to be that the Points and Rewards plugin can't see to see the hook or this class in my own plugin.
+// never called even though add_filter() was called in constructor.
+// The issues seems to be that the Points and Rewards plugin can't see the hook or this class in my own plugin.
